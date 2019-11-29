@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   jokes.plist
-   Joke Bank
-
-   Created by onelazycoder on 29.11.2019.
-   Copyright (c) 2019 onelazycoder. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>jokes</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>joke1</string>
+			<key>text</key>
+			<string>joke number 1 \n It is a joke \n Yep</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>joke2</string>
+			<key>text</key>
+			<string>joke number 2 \n It is a joke \n Yep</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>joke3</string>
+			<key>text</key>
+			<string>joke number 3 \n It is a joke \n Yep</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>joke1</string>
+			<key>text</key>
+			<string>joke number 1 \n It is a joke \n Yep</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>joke4</string>
+			<key>text</key>
+			<string>joke number 4 \n It is a joke \n Yep</string>
+		</dict>
+	</array>
+</dict>
 </plist>
