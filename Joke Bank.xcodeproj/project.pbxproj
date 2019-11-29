@@ -14,7 +14,8 @@
 		E860CAA623913FC800FA1EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E860CAA423913FC800FA1EC7 /* LaunchScreen.storyboard */; };
 		E860CAAE2391408300FA1EC7 /* JokesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860CAAD2391408300FA1EC7 /* JokesTableViewController.swift */; };
 		E860CAB02391439800FA1EC7 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860CAAF2391439800FA1EC7 /* DefinitionViewController.swift */; };
-		E860CAB22391623100FA1EC7 /* jokes.plist in Resources */ = {isa = PBXBuildFile; fileRef = E860CAB12391623100FA1EC7 /* jokes.plist */; };
+		E860CAB22391623100FA1EC7 /* Jokes.plist in Resources */ = {isa = PBXBuildFile; fileRef = E860CAB12391623100FA1EC7 /* Jokes.plist */; };
+		E860CAB42391701300FA1EC7 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860CAB32391701300FA1EC7 /* Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		E860CAA723913FC800FA1EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E860CAAD2391408300FA1EC7 /* JokesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTableViewController.swift; sourceTree = "<group>"; };
 		E860CAAF2391439800FA1EC7 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
-		E860CAB12391623100FA1EC7 /* jokes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = jokes.plist; sourceTree = "<group>"; };
+		E860CAB12391623100FA1EC7 /* Jokes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Jokes.plist; sourceTree = "<group>"; };
+		E860CAB32391701300FA1EC7 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,11 @@
 			children = (
 				E860CA9923913FC500FA1EC7 /* AppDelegate.swift */,
 				E860CA9B23913FC500FA1EC7 /* SceneDelegate.swift */,
+				E860CAB32391701300FA1EC7 /* Joke.swift */,
 				E860CA9F23913FC500FA1EC7 /* Main.storyboard */,
 				E860CAAD2391408300FA1EC7 /* JokesTableViewController.swift */,
 				E860CAAF2391439800FA1EC7 /* DefinitionViewController.swift */,
-				E860CAB12391623100FA1EC7 /* jokes.plist */,
+				E860CAB12391623100FA1EC7 /* Jokes.plist */,
 				E860CAA223913FC800FA1EC7 /* Assets.xcassets */,
 				E860CAA423913FC800FA1EC7 /* LaunchScreen.storyboard */,
 				E860CAA723913FC800FA1EC7 /* Info.plist */,
@@ -132,7 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E860CAA623913FC800FA1EC7 /* LaunchScreen.storyboard in Resources */,
-				E860CAB22391623100FA1EC7 /* jokes.plist in Resources */,
+				E860CAB22391623100FA1EC7 /* Jokes.plist in Resources */,
 				E860CAA323913FC800FA1EC7 /* Assets.xcassets in Resources */,
 				E860CAA123913FC500FA1EC7 /* Main.storyboard in Resources */,
 			);
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E860CA9A23913FC500FA1EC7 /* AppDelegate.swift in Sources */,
+				E860CAB42391701300FA1EC7 /* Joke.swift in Sources */,
 				E860CAB02391439800FA1EC7 /* DefinitionViewController.swift in Sources */,
 				E860CA9C23913FC500FA1EC7 /* SceneDelegate.swift in Sources */,
 				E860CAAE2391408300FA1EC7 /* JokesTableViewController.swift in Sources */,

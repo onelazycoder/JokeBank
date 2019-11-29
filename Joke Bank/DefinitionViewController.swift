@@ -12,13 +12,15 @@ class DefinitionViewController: UIViewController {
 
     @IBOutlet weak var jokeTextView: UITextView!
     
-    var joke = ""
+    var joke: Joke?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = joke
-        jokeTextView.text = joke + "\n" + joke + "\n" + joke + "\n"
+        if joke != nil {
+            title = joke?.title
+            jokeTextView.text = joke?.text
+        }
         
     }
 }
