@@ -16,6 +16,7 @@ class DefinitionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         title = joke
         jokeTextView.text = joke + "\n" + joke + "\n" + joke + "\n"
         
