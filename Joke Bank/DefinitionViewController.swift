@@ -16,13 +16,8 @@ class DefinitionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         title = joke
-        
-//        var jokes = ["Joke number 1", "Awesome joke", "Joke 3", "HAHAHA"]
-//        if joke == "Joke number 1" {
-            jokeTextView.text = joke + "\n" + joke + "\n" + joke + "\n"
-//        }
+        jokeTextView.text = joke + "\n" + joke + "\n" + joke + "\n"
         
     }
 }
